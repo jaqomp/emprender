@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/emprender/static/css/main.d7bb89f6.chunk.css",
+    "main.js": "/emprender/static/js/main.bc5d8458.chunk.js",
+    "main.js.map": "/emprender/static/js/main.bc5d8458.chunk.js.map",
+    "runtime-main.js": "/emprender/static/js/runtime-main.d50cb06c.js",
+    "runtime-main.js.map": "/emprender/static/js/runtime-main.d50cb06c.js.map",
+    "static/js/2.858ca518.chunk.js": "/emprender/static/js/2.858ca518.chunk.js",
+    "static/js/2.858ca518.chunk.js.map": "/emprender/static/js/2.858ca518.chunk.js.map",
+    "index.html": "/emprender/index.html",
+    "static/css/main.d7bb89f6.chunk.css.map": "/emprender/static/css/main.d7bb89f6.chunk.css.map",
+    "static/js/2.858ca518.chunk.js.LICENSE.txt": "/emprender/static/js/2.858ca518.chunk.js.LICENSE.txt",
+    "static/media/accesorios.7d2875f7.jpg": "/emprender/static/media/accesorios.7d2875f7.jpg",
+    "static/media/bebidas.5e91cf4f.jpg": "/emprender/static/media/bebidas.5e91cf4f.jpg",
+    "static/media/cuadros.6b6ee6f0.jpg": "/emprender/static/media/cuadros.6b6ee6f0.jpg",
+    "static/media/paelladepollo.aa1f3b8a.jpg": "/emprender/static/media/paelladepollo.aa1f3b8a.jpg",
+    "static/media/ropa.88d5e40c.jpg": "/emprender/static/media/ropa.88d5e40c.jpg",
+    "static/media/tortas.71d22b45.jpg": "/emprender/static/media/tortas.71d22b45.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d50cb06c.js",
+    "static/js/2.858ca518.chunk.js",
+    "static/css/main.d7bb89f6.chunk.css",
+    "static/js/main.bc5d8458.chunk.js"
+  ]
+}
