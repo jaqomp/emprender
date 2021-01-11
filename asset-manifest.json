@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/emprender/static/css/main.d7bb89f6.chunk.css",
-    "main.js": "/emprender/static/js/main.3d1ed88a.chunk.js",
-    "main.js.map": "/emprender/static/js/main.3d1ed88a.chunk.js.map",
+    "main.js": "/emprender/static/js/main.682fd766.chunk.js",
+    "main.js.map": "/emprender/static/js/main.682fd766.chunk.js.map",
     "runtime-main.js": "/emprender/static/js/runtime-main.d50cb06c.js",
     "runtime-main.js.map": "/emprender/static/js/runtime-main.d50cb06c.js.map",
-    "static/js/2.858ca518.chunk.js": "/emprender/static/js/2.858ca518.chunk.js",
-    "static/js/2.858ca518.chunk.js.map": "/emprender/static/js/2.858ca518.chunk.js.map",
+    "static/js/2.2d3fc0d8.chunk.js": "/emprender/static/js/2.2d3fc0d8.chunk.js",
+    "static/js/2.2d3fc0d8.chunk.js.map": "/emprender/static/js/2.2d3fc0d8.chunk.js.map",
     "index.html": "/emprender/index.html",
     "static/css/main.d7bb89f6.chunk.css.map": "/emprender/static/css/main.d7bb89f6.chunk.css.map",
-    "static/js/2.858ca518.chunk.js.LICENSE.txt": "/emprender/static/js/2.858ca518.chunk.js.LICENSE.txt",
+    "static/js/2.2d3fc0d8.chunk.js.LICENSE.txt": "/emprender/static/js/2.2d3fc0d8.chunk.js.LICENSE.txt",
     "static/media/accesorios.7d2875f7.jpg": "/emprender/static/media/accesorios.7d2875f7.jpg",
     "static/media/bebidas.5e91cf4f.jpg": "/emprender/static/media/bebidas.5e91cf4f.jpg",
     "static/media/cuadros.6b6ee6f0.jpg": "/emprender/static/media/cuadros.6b6ee6f0.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d50cb06c.js",
-    "static/js/2.858ca518.chunk.js",
+    "static/js/2.2d3fc0d8.chunk.js",
     "static/css/main.d7bb89f6.chunk.css",
-    "static/js/main.3d1ed88a.chunk.js"
+    "static/js/main.682fd766.chunk.js"
   ]
 }
