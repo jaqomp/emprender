@@ -34,7 +34,7 @@ const Login = ({ history }) => {
   const { currentUser } = useContext(AuthContext);
 
   if (currentUser) {
-    return <Redirect to="/emprender" />;
+    return <Redirect to="/" />;
   }
 
  makeStyles((theme) => ({
