@@ -11,7 +11,7 @@ const PrivateRoute = ({ component: RouteComponent, ...rest }) => {
         !!currentUser ? (
           <RouteComponent {...routeProps} />
         ) : (
-          <Redirect to={"https://jaqomp.github.io/login"} />
+          <Redirect to={"https://jaqomp.github.io/emprender/login"} />
         )
       }
     />
