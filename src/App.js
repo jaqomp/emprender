@@ -25,10 +25,10 @@ const App = () => {
     <div className="App"> 
              <MenuAppBar Link={Link}/>
              <Switch>
-             <PrivateRoute path="https://jaqomp.github.io/" exact component={Home} />
-                 <Route path="https://jaqomp.github.io/login" component={Login}/>
-                 <Route path="https://jaqomp.github.io/registrarse" component={Registrarse} />
-                 <Route path="https://jaqomp.github.io/contacto" component={Contacto} />
+             <PrivateRoute path="/" exact component={Home} />
+                 <Route path="https://jaqomp.github.io/emprender/login" component={Login}/>
+                 <Route path="https://jaqomp.github.io/emprender/registrarse" component={Registrarse} />
+                 <Route path="https://jaqomp.github.io/emprender/contacto" component={Contacto} />
                  
                    <PrivateRoute path="/mascotas" component={Mascotas}/>
                    <PrivateRoute path="/comida" component={Comida}/>
