@@ -34,7 +34,7 @@ const Login = ({ history }) => {
   const { currentUser } = useContext(AuthContext);
 
   if (currentUser) {
-    return <Redirect to="/" />;
+    return <Redirect to="https://jaqomp.github.io/emprender" />;
   }
 
  makeStyles((theme) => ({
