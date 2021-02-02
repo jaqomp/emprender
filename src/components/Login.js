@@ -110,7 +110,7 @@ const Login = ({ history }) => {
               </Link>
             </Grid>
             <Grid item>
-              <Link href="/registrarse" variant="body2">
+              <Link href="https://jaqomp.github.io/registrarse" variant="body2">
                 {"No tienes una cuenta? Registrate"}
               </Link>
             </Grid>
