@@ -25,10 +25,10 @@ const App = () => {
     <div className="App"> 
              <MenuAppBar Link={Link}/>
              <Switch>
-             <PrivateRoute path="/" exact component={Home} />
-                 <Route path="/login" component={Login}/>
-                 <Route path="/registrarse" component={Registrarse} />
-                 <Route path="/contacto" component={Contacto} />
+             <PrivateRoute path="/emprender/" exact component={Home} />
+                 <Route path="/emprender/login" component={Login}/>
+                 <Route path="/emprender/registrarse" component={Registrarse} />
+                 <Route path="/emprender/contacto" component={Contacto} />
                  
                    <PrivateRoute path="/mascotas" component={Mascotas}/>
                    <PrivateRoute path="/comida" component={Comida}/>

@@ -44,7 +44,8 @@ icono:{
   },
   [theme.breakpoints.down('xs')]: {
     paddingLeft: '0',
-    height: '3rem',
+    height: '1.5rem',
+    
   },
 },
 
@@ -61,10 +62,12 @@ icono:{
     [theme.breakpoints.down('sm')]: {
       fontSize: '3em', 
       
-      paddingLeft: 1,
+      paddingLeft: '1',
     },
     [theme.breakpoints.down('xs')]: {
-      fontSize: '3em', 
+      fontSize: '1.5em', 
+      paddingLeft:'0',
+      paddingBottom: '50',
       
       
     },

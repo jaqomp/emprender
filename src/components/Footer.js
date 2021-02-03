@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -9,6 +9,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button'
+import {db} from '../firebase';
 
 function Copyright() {
   return (
@@ -112,6 +113,20 @@ const useStyles = makeStyles((theme) => ({
 
 export default function StickyFooter() {
   const classes = useStyles();
+  const [email,setEmail] = useState('');
+
+  const handleChangeEmail = (e) =>{
+    setEmail(e.target.value)
+  }
+
+  const subirEmail = async (e) => {
+    e.preventDefault();
+    db.collection('newsletter').add({
+        emailUsuario: email,     
+    })
+    setTimeout((function(){ window.location.replace("/login"); }), 1000)
+  }
+
   return (
     <div className={classes.root}>
       <footer className={classes.footer}>
@@ -122,12 +137,14 @@ export default function StickyFooter() {
 
                 <Container className={classes.containerRedSocial}>
                     <FacebookIcon className={classes.iconoContacto} />
-                    <Typography>Facebook</Typography>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className={classes.contactoLink}>Facebook</a>
+                    
                 </Container>
 
                 <Container className={classes.containerRedSocial}>
                     <InstagramIcon className={classes.iconoContacto} />
-                    <Typography>Instagram</Typography>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className={classes.contactoLink}>Instagram</a>
+                    
                 </Container>
             </Container>
 
@@ -146,7 +163,7 @@ export default function StickyFooter() {
                     <Typography>jacquelinep_@hotmail.com</Typography>
                 </Container>
             </Container>
-
+<form onSubmit={subirEmail}>
             <Container className={classes.containerNewsletter}>
                 <Typography>Recibe recomendaciónes y acceso a sorteos!</Typography>
                 <Container className={classes.containerEmail}>
@@ -155,13 +172,16 @@ export default function StickyFooter() {
                     id="outlined-uncontrolled"
                     label="Email"   
                     variant="outlined"
+                    onChange={handleChangeEmail}
+                    type="email" required
                     color="secondary"
                     />
-                    <Button color='secondary'>Enviar</Button>
+                    <Button color='secondary' type="submit" className={classes.buttonEnviarEmail}>Enviar</Button>
                 </Container>
+                
             </Container>
 
-            {/* <Typography variant="900">Proyecto para ComunidadIT</Typography> */}
+            </form>
         </Container>
         
         <Container className={classes.containerCopy}>
@@ -171,4 +191,5 @@ export default function StickyFooter() {
     </div>
   );
 }
+
  

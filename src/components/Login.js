@@ -34,7 +34,7 @@ const Login = ({ history }) => {
   const { currentUser } = useContext(AuthContext);
 
   if (currentUser) {
-    return <Redirect to="/home" />;
+    return <Redirect to="/emprender/" />;
   }
 
  makeStyles((theme) => ({
@@ -110,7 +110,7 @@ const Login = ({ history }) => {
               </Link>
             </Grid>
             <Grid item>
-              <Link href="/registrarse" variant="body2">
+              <Link href="/emprender/registrarse" variant="body2">
                 {"No tienes una cuenta? Registrate"}
               </Link>
             </Grid>
